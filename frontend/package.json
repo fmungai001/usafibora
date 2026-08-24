@@ -1,0 +1,41 @@
+{
+  "name": "usafibora-frontend",
+  "version": "1.0.0",
+  "description": "UsafiBora - Professional cleaning services marketplace",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.0",
+    "axios": "^1.4.0",
+    "zustand": "^4.3.9",
+    "react-query": "^3.39.3",
+    "react-hook-form": "^7.45.0",
+    "zod": "^3.22.2",
+    "@hookform/resolvers": "^3.1.1",
+    "tailwindcss": "^3.3.2",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.258.0",
+    "date-fns": "^2.30.0",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "typescript": "^5.1.6",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.0"
+  }
+}
